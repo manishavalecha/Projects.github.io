@@ -122,7 +122,7 @@ function addNumber() {
 	if (options.length >0) {
 	let spot=random(options);
 	let r=random(1);
-	grid[spot.x][spot.y]=r>0.5 ? 256 : 512;
+	grid[spot.x][spot.y]=r>0.5 ? 2 : 4;
    }
 }
 
